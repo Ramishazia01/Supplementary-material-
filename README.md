@@ -18,15 +18,15 @@ This repository contains the complete supplementary evidence for our SLR on disa
 ### Sheet-wise Details (As per Final Excel)
 
 **Sheet 01_Search_Log**
-Exact name in Excel: `Search_Log_47_120_195_145_75`
+
 Contains: Database/source, URL, Exact search string used/reproducible query (verbatim), Field restriction (TITLE-ABS-KEY, All Metadata, Title search), Total results found per database (716 total), Records retrieved (47,120,195,145,75=582), Search date, Duplicates removed, Publication/date restriction, Language, Filters/restrictions, Inclusion/Exclusion criteria, Negative terms (hazard prediction, susceptibility mapping, landslide prediction, flood forecasting, evacuation planning, etc.), Operator definition (+ = AND, * = wildcard, - = NOT). Also mirrored in Appendix A.
 
-**Sheet 03_PRISMA**
-Exact name in Excel: `PRISMA_582_320_241_213`
+**Sheet 02_PRISMA**
+
 PRISMA 2020 flow: Initial retrieved 582, Duplicates removed 262, After deduplication 320, Excluded at Title/Abstract 79, Full-text assessed 241, Excluded at Full-text 28, Final included 213. Matches Figure 3.
 
 **Sheet 03FullProcess_of paperselection**
-Exact name in Excel: `Full process of paper selection`
+
 Complete study-level list of 582 records. Key columns:
 - `Duplicate(Yes/No)` - Deduplication proof: Yes=262 duplicates, No=320 unique
 - `Screening Decision (Title/Abstract)` + `Screening Exclusion Reason` - 79 varied EC-coded reasons (not same text)
@@ -39,15 +39,15 @@ Complete study-level list of 582 records. Key columns:
 This sheet is the supplementary study-level list of all included papers requested by reviewer.
 
 **Sheet 07_Extraction_Rules_Coding_Rule**
-Exact name in Excel: `Extraction_Rules`
+
 Defines: Study ID, Reference, Dataset, Disaster/event, Task, Model, Modality, Language, Size/class distribution, Train/test split, Metric, Numerical result, Evaluation setting, Comparability note, Annotation method, Labels, Reproducibility. Includes coding rule for Figure 6: Each distinct architecture evaluated within a study is counted as one model-use instance. Also defines Scope Boundary and EC4 objective test (disaster content detection as primary outcome vs adjacent tasks like satellite/UAV-only, hazard prediction, susceptibility mapping, logistics).
 
 **Sheet 05_Quality_Risk_of_Bias**
-Exact name in Excel: `Quality_Risk_of_Bias_172_DETAIL`
+
 Quality assessment for 172 primary studies: Study ID, Authors, Year, Title, Dataset, Model, Q1: Data source/sample clearly described?, Q1 Justification, Q2: Labels/annotation/ground truth clearly described?, Q2 Justification, Q3: Train/val/test design clearly reported and leakage controlled?, Q3 Justification, Q4: Evaluation metrics/results adequately reported?, Q4 Justification, Total Score /8, Overall Risk-of-Bias, Reproducibility: Dataset public? Code available?, Notes.
 
 **Sheet 08_Quality_Summary_Stats**
-Exact name in Excel: `Quality_Summary_Stats` + `Quality_Scoring_Legend`
+
 Scoring Legend: Q1-Q4 scored as Yes=2, Partial=1, Unclear=0.5, No=0. Overall Risk: Low risk ≥6.5 (High quality), Moderate 4.5-6 (Medium quality), High <4.5 (Low quality).
 Summary: Total primary studies 172, Low risk 139 (80.8%), Moderate 33 (19.2%), High 0, Mean 6.85/8.
 
