@@ -1,6 +1,6 @@
 # Supplementary Evidence - Disaster Content Detection: A Systematic Review and Quantitative Synthesis of Datasets, Models, Evaluation Practices, Challenges, and Future Directions
 
-This repository contains the complete supplementary evidence for our SLR on disaster content detection from social media (2015-2025). This file addresses Reviewer 1 Comment 1 regarding review protocol, corpus definition, and reproducibility.
+This repository contains the complete supplementary evidence for our SLR on disaster content detection from social media (2015-2025). This file provides detailed steps of study selection for our systematic review.
 
 **File:** `Disaster_survey_Final_supplementary_sheet.xlsx`
 
